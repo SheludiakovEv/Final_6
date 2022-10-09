@@ -13,7 +13,6 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-
 public class LionParameterizedTest {
 
     //заготовки для параметризованного теста
@@ -44,7 +43,7 @@ public class LionParameterizedTest {
     }
 
     @Test
-    public void LionCallСonstructorCheckHasManeField() throws Exception {
+    public void lionCallСonstructorCheckHasManeField() throws Exception {
         assertEquals("должен возвращаться параметр hasMane == ", hasMane, lion.hasMane);
     }
 
